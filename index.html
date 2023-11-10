@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página - HTML: Primeiros Passos</title>
+</head>
+<body>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            font-size: .9em;
+            margin-left: 8%;
+            margin-right: 8%;
+            margin-top: 5%;
+            margin-bottom: 8%;
+            line-height: 1.3;
+            text-align: justify;
+            background-color: rgb(236, 237, 243);
+        }
+    </style>
+    
+    <h1 id="titulo">HTML: Primeiros Passos.</h1>
+    <small>Por Thays Baldiotti.</small>
+    
+    <hr />
+
+    <h2 id="inicio">Índice</h2>
+    <p><strong><u>MENU BOX</u>: </strong>Para facilitar a sua localização na página, navegue MENU BOX!</p>
+    <ul>
+        <li><a href="#historia">História dos computadores</a></li>
+        <li><a href="#clients">O que são <i>Clients</i>?</a></li>
+        <li><a href="#servers">O que são <i>Servers</i>?</a></li>
+        <li><a href="#estruturabasica">Como é uma estrutura básica de um HTML?</a></li>
+        <li><a href="#listasordenadasvsnaoordenadas">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
+        <li><a href="#referencias">Links de referências</a></li>
+    </ul>
+
+    <hr />
+
+    <h2 id="historia">História dos computadores</h2>
+    <p><strong>Pré-História:</strong> 
+    <ul><li>Ábacos e dispositivos mecânicos simples foram usados em culturas antigas para auxiliar em cálculos.</li></ul>
+
+    <strong>Década de 1600:</strong> 
+    <ul><li>Blaise Pascal inventou a máquina de calcular mecânica, conhecida como Pascaline.</li>
+    <li>Gottfried Wilhelm Leibniz desenvolveu a máquina de cálculo, que utilizava um sistema binário.</li></ul>
+
+    <strong>Século XIX:</strong> 
+    <ul><li>Charles Babbage concebeu a ideia da "Máquina Analítica", considerada o precursor conceitual dos computadores modernos.</li>
+    <li>Ada Lovelace, colaboradora de Babbage, é reconhecida como a primeira programadora.</li></ul>
+
+    <strong>Décadas de 1930-1940:</strong> 
+    <ul><li>Alan Turing formalizou o conceito de máquinas universais, estabelecendo as bases teóricas para a computação.</li>
+    <li>Konrad Zuse construiu o primeiro computador programável, o Z3, na Alemanha.</li></ul>
+
+    <strong>Década de 1940:</strong> 
+    <ul><li>ENIAC (Electronic Numerical Integrator and Computer) foi o primeiro computador totalmente eletrônico, concluído em 1946 nos Estados Unidos.</li></ul>
+
+    <strong>Década de 1950:</strong> 
+    <ul><li>Surgimento dos primeiros computadores comerciais, como o UNIVAC I.</li>
+    <li>Desenvolvimento dos primeiros sistemas operacionais.</li></ul>
+
+    <strong>Década de 1960:</strong> 
+    <ul><li>Introdução dos transistores, substituindo as válvulas, tornando os computadores mais rápidos e confiáveis.</li>
+    <li>Surgimento dos mainframes e dos minicomputadores.</li></ul>
+
+    <strong>Década de 1970:</strong> 
+    <ul><li>Desenvolvimento dos microprocessadores, como o Intel 4004.</li>
+    <li>Introdução dos primeiros computadores pessoais, como o Altair 8800 e o Apple I.</li></ul>
+
+    <strong>Década de 1980:</strong> 
+    <ul><li>Popularização dos computadores pessoais, com o surgimento do IBM PC e dos sistemas operacionais como MS-DOS e Windows.</li></ul>
+
+    <strong>Década de 1990:</strong> 
+    <ul><li>Explosão da internet e crescimento exponencial da computação pessoal.</li>
+    <li>Desenvolvimento de tecnologias como a World Wide Web.</li></ul>
+
+    <strong>Década de 2000 em diante:</strong> 
+    <ul><li>Avanços contínuos em poder de processamento, armazenamento e conectividade.</li>
+    <li>Surgimento de dispositivos móveis, smartphones e tablets.</li>
+    <li>Evolução para a computação em nuvem e o advento da inteligência artificial.</li></ul>
+    </p>
+    <small><a href="#inicio">(Retornar para o topo)</a></small>
+<br>
+    <hr />
+
+    <h2 id="clients">O que são <i>Clients</i>?</h2>
+    <p>Dentro da tecnologia da informação (TI), o termo "clients" (clientes) refere-se geralmente a dispositivos ou programas que solicitam serviços ou recursos de um servidor em uma arquitetura cliente-servidor. Aqui estão dois contextos principais em que o termo "client" é comumente usado:
+        <ol><li><strong>Cliente de Hardware (Dispositivo Cliente):</strong></li><ul><li>Em redes de computadores, um "cliente" pode ser um dispositivo de hardware, como um computador, laptop, smartphone, tablet ou qualquer outro dispositivo que solicita e consome serviços ou recursos de um servidor.</li></ul>
+        <li><strong>Cliente de Software (Programa Cliente):</strong></li><ul><li>Em arquiteturas cliente-servidor, um "cliente" também pode ser um programa de software que solicita serviços de um servidor. Isso pode incluir navegadores da web (clientes HTTP), clientes de email, aplicativos de mensagens, entre outros.</li></ul></ol>
+    
+        Em uma arquitetura cliente-servidor típica:
+        <ul><li>O "cliente" é responsável por enviar solicitações ao "servidor".</li>
+        <li>O "servidor" é responsável por processar essas solicitações e fornecer os recursos ou serviços solicitados.</li></ul></p>
+
+        <p>Por exemplo, em um ambiente web, quando você abre um navegador <i>(cliente)</i> e acessa um site, o navegador envia solicitações a servidores web que hospedam o site. Os servidores respondem fornecendo as páginas web e outros recursos necessários para exibição no seu navegador.</p>
+
+        <p>Portanto, em resumo, dentro da tecnologia da informação, "clients" referem-se a dispositivos ou programas que solicitam e consomem serviços ou recursos de um servidor.</p>
+    <small><a href="#inicio">(Retornar para o topo)</a></small>
+<br>
+    <hr />
+
+    <h2 id="servers">O que são <i>Servers</i>?</h2>
+    <p>Dentro da tecnologia da informação (TI), o termo "servers" (servidores) refere-se a sistemas computacionais encarregados de processar e atender solicitações dos "clients" em uma arquitetura cliente-servidor. Existem dois contextos principais para entender o papel dos servidores:
+        <ol><li><strong>Servidor de Hardware (Dispositivo Servidor):</strong></li><ul><li>Em redes de computadores, um "servidor" é um dispositivo de hardware dedicado a fornecer serviços, recursos ou dados para os "clients". Exemplos incluem servidores web, de banco de dados ou de arquivos.</li></ul>
+        <li><strong>Servidor de Software (Programa Servidor):</strong></li><ul><li>Na arquitetura cliente-servidor, um "servidor" também pode ser um programa de software que processa solicitações dos "clients". Isso é comum em serviços web, onde um servidor web responde a solicitações HTTP dos navegadores (clients).</li></ul></ol>
+    
+        Em uma arquitetura cliente-servidor:
+        <ul><li>O "client" envia solicitações ao "server".</li>
+        <li>O "server" processa essas solicitações e fornece os recursos ou serviços solicitados de maneira eficiente e organizada.</li></ul></p>
+
+        <p>Por exemplo, ao acessar um site, seu navegador (client) envia solicitações a servidores web. Os servidores processam essas solicitações, recuperam as páginas web e as enviam de volta para o navegador exibir.</p>
+
+        <p>Por exemplo, ao acessar um site, seu navegador (client) envia solicitações a servidores web. Os servidores processam essas solicitações, recuperam as páginas web e as enviam de volta para o navegador exibir.</p>
+    <small><a href="#inicio">(Retornar para o topo)</a></small>
+<br>
+    <hr />
+
+    <h2 id="estruturabasica">Como é uma estrutura básica de um HTML?</h2>
+    <p>A estrutura básica de um documento HTML (Hypertext Markup Language) consiste em elementos essenciais que fornecem a estrutura e o conteúdo básico de uma página web.</p> <p>Aqui está um exemplo simples:</p>
+    <p style="margin-left: 3%;"><img src="html basico.jpg" title="Estrutura básica de um HTML"></p>
+    <p>Aqui está uma breve explicação dos elementos principais:
+        <ol>
+            <li><strong>&lt;!DOCTYPE html&gt;</strong>: Define a versão do HTML sendo usada. O exemplo usa HTML5.</li>
+            <li><strong>&lt;html lang="<i>en</i>"&gt;</strong>: Inicia o elemento HTML, indicando o idioma da página (neste caso, português brasileiro).</li>
+            <li><strong>&lt;head&gt;</strong>:  Contém metadados e informações sobre a página, como o conjunto de caracteres (<strong>&lt;meta charset="UTF-8"&gt;</strong>), a viewport para dispositivos móveis (<strong>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</strong>), e o título da página (<strong>&lt;title>Document&lt;/title&gt;</strong>).</li>
+            <li><strong>&lt;body&gt;</strong>: Contém o conteúdo principal da página, que, neste exemplo, está vazio.</li>
+        </ol>
+    </p>
+
+
+<br>
+    <small><a href="#inicio">(Retornar para o topo)</a></small>
+<br>
+    <hr />
+
+    <h2 id="listasordenadasvsnaoordenadas">Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
+    <p>Listas ordenadas e não ordenadas são estruturas comuns em HTML usadas para organizar e apresentar informações de maneiras distintas. Aqui está uma breve explicação sobre a diferença entre elas:</p>
+
+    <p>
+        <ol>
+            <li><strong>Listas Não Ordenadas (&lt;ul&gt; - Unordered List):</strong>
+                <ul><li><strong>Tag Principal: &lt;ul&gt;&lt;/ul&gt;</strong></li>
+                <li><strong>Itens: &lt;li&gt;</strong> (List Item)</li>
+                <li><strong>Apresentação:</strong> Os itens são apresentados sem uma ordem específica e geralmente são marcados com símbolos, como pontos (•), discos ou quadrados.</li>
+                <li><strong>Entrada:</strong>
+                    <p style="margin-left: 1%;"><img src="ul.png" title="Estrutura de Lista Não Ordenada - ul"></p>
+                </li>
+                <li><strong>Saída:</strong></li>
+                <ul>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                </ul>
+                </ul>
+            </li>
+<br>
+            <li><strong>Listas Ordenadas (&lt;ol&gt; - Ordered List):</strong>
+                <ul><li><strong>Tag Principal: &lt;ol&gt;&lt;/ul&gt;</strong></li>
+                <li><strong>Itens: &lt;li&gt;</strong> (List Item)</li>
+                <li><strong>Apresentação:</strong> Os itens são apresentados em uma ordem específica, geralmente numerada (1, 2, 3) ou alfanumérica (a, b, c).</li>
+                <li><strong>Entrada:</strong>
+                    <p style="margin-left: 1%;"><img src="ol.png" title="Estrutura de Lista Ordenada - ol"></p>
+                </li>
+                <li><strong>Saída:</strong></li>
+                <ol>
+                    <li>Primeiro</li>
+                    <li>Segundo</li>
+                    <li>Terceiro</li>
+                </ol>
+                </ul>
+                </li>
+
+        </ol>
+        <p>Em resumo, as listas não ordenadas são utilizadas quando a ordem dos itens não é relevante, e os itens são apresentados com marcadores. Por outro lado, as listas ordenadas são usadas quando a ordem dos itens é significativa, e os itens são numerados ou identificados alfanumericamente. A escolha entre elas depende do contexto e do significado dos itens que você está apresentando.</p></p>
+
+    <small><a href="#inicio">(Retornar para o topo)</a></small>
+<br>
+    <hr />
+
+    <h2 id="referencias">Links de referências:</h2>
+    <ul>
+        <li><a href="http://dio.me" target="_blank">http://dio.me</a></li>
+    </ul>
+</body>
+</html>
+
+
+
+
+
