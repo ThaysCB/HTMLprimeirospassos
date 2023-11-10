@@ -1,0 +1,1 @@
+Olá, eu sou a Thays! Essa é uma versão com HTML básico em que contém um conteúdo simples com o tema "HTML: Primeiros passos.". Trata-se do resultado de uma atividade proposta pelos mentores da DIO.ME, escola em que me matruculei recentemente. O intuito é dar sequência aos estudos e, muito em breve, aplicar o CSS também. Foi divertido! :)
